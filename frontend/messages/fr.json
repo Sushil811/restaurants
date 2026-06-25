@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "menu": "Menu",
+    "about": "À Propos",
+    "reservations": "Réservations",
+    "gallery": "Galerie",
+    "blog": "Blog",
+    "contact": "Contact",
+    "cart": "Panier",
+    "login": "Connexion",
+    "register": "S'inscrire",
+    "account": "Mon Compte",
+    "logout": "Déconnexion"
+  },
+  "hero": {
+    "tagline": "FONDÉ EN 2010 · PARIS",
+    "title": "Là Où la Cuisine Rencontre l'Art",
+    "subtitle": "Découvrez le summum de la cuisine franco-indienne dans une atmosphère de luxe raffiné",
+    "cta_reserve": "Réserver une Table",
+    "cta_menu": "Voir Notre Menu"
+  },
+  "menu": {
+    "title": "Notre Menu",
+    "search_placeholder": "Rechercher des plats...",
+    "categories": {
+      "all": "Tout",
+      "starters": "Entrées",
+      "main_course": "Plats Principaux",
+      "desserts": "Desserts",
+      "drinks": "Boissons",
+      "specials": "Offres Spéciales"
+    },
+    "filters": {
+      "vegetarian": "Végétarien",
+      "vegan": "Végétalien",
+      "gluten_free": "Sans Gluten",
+      "sort": "Trier Par",
+      "price_asc": "Prix: Croissant",
+      "price_desc": "Prix: Décroissant",
+      "rating": "Mieux Noté",
+      "popular": "Plus Populaire"
+    },
+    "add_to_cart": "Ajouter au Panier",
+    "view_details": "Voir les Détails",
+    "chef_special": "Spécialité du Chef",
+    "veg": "Végétarien",
+    "non_veg": "Non-Végétarien"
+  },
+  "reservation": {
+    "title": "Réserver Votre Table",
+    "subtitle": "Réservez une table chez Lumiere pour une expérience gastronomique inoubliable",
+    "select_date": "Choisir la Date",
+    "select_time": "Choisir l'Heure",
+    "guests": "Nombre de Convives",
+    "occasion": "Occasion",
+    "special_requests": "Demandes Spéciales",
+    "name": "Nom Complet",
+    "email": "Adresse Email",
+    "phone": "Numéro de Téléphone",
+    "confirm": "Confirmer la Réservation",
+    "success": "Réservation Confirmée!",
+    "confirmation_code": "Votre code de confirmation"
+  },
+  "footer": {
+    "tagline": "Une expérience gastronomique extraordinaire au cœur de la ville",
+    "links": "Liens Rapides",
+    "hours": "Heures d'Ouverture",
+    "newsletter": "Newsletter",
+    "newsletter_placeholder": "Votre adresse email",
+    "subscribe": "S'abonner",
+    "copyright": "© {year} Restaurant Lumiere. Tous droits réservés.",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation"
+  },
+  "cart": {
+    "title": "Votre Panier",
+    "empty": "Votre panier est vide",
+    "empty_subtitle": "Ajoutez des plats délicieux pour commencer",
+    "browse_menu": "Parcourir le Menu",
+    "subtotal": "Sous-total",
+    "delivery_fee": "Frais de Livraison",
+    "tax": "TVA (5%)",
+    "total": "Total",
+    "free_delivery": "Gratuit",
+    "coupon_placeholder": "Code promo",
+    "apply_coupon": "Appliquer",
+    "checkout": "Procéder au Paiement",
+    "continue_shopping": "Continuer les Achats"
+  }
+}

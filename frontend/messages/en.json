@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "about": "About",
+    "reservations": "Reservations",
+    "gallery": "Gallery",
+    "blog": "Blog",
+    "contact": "Contact",
+    "cart": "Cart",
+    "login": "Login",
+    "register": "Register",
+    "account": "My Account",
+    "logout": "Logout"
+  },
+  "hero": {
+    "tagline": "EST. 2010 · PARIS",
+    "title": "Where Cuisine Meets Art",
+    "subtitle": "Experience the pinnacle of French-Indian fusion cuisine in an atmosphere of understated luxury",
+    "cta_reserve": "Reserve a Table",
+    "cta_menu": "View Our Menu"
+  },
+  "menu": {
+    "title": "Our Menu",
+    "search_placeholder": "Search dishes...",
+    "categories": {
+      "all": "All",
+      "starters": "Starters",
+      "main_course": "Main Course",
+      "desserts": "Desserts",
+      "drinks": "Drinks",
+      "specials": "Special Offers"
+    },
+    "filters": {
+      "vegetarian": "Vegetarian",
+      "vegan": "Vegan",
+      "gluten_free": "Gluten Free",
+      "sort": "Sort By",
+      "price_asc": "Price: Low to High",
+      "price_desc": "Price: High to Low",
+      "rating": "Highest Rated",
+      "popular": "Most Popular"
+    },
+    "add_to_cart": "Add to Cart",
+    "view_details": "View Details",
+    "chef_special": "Chef's Special",
+    "veg": "Vegetarian",
+    "non_veg": "Non-Vegetarian"
+  },
+  "reservation": {
+    "title": "Reserve Your Table",
+    "subtitle": "Book a table at Lumiere for an unforgettable dining experience",
+    "select_date": "Select Date",
+    "select_time": "Select Time",
+    "guests": "Number of Guests",
+    "occasion": "Occasion",
+    "special_requests": "Special Requests",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "confirm": "Confirm Reservation",
+    "success": "Reservation Confirmed!",
+    "confirmation_code": "Your confirmation code"
+  },
+  "footer": {
+    "tagline": "An extraordinary dining experience in the heart of the city",
+    "links": "Quick Links",
+    "hours": "Opening Hours",
+    "newsletter": "Newsletter",
+    "newsletter_placeholder": "Your email address",
+    "subscribe": "Subscribe",
+    "copyright": "© {year} Lumiere Restaurant. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "cart": {
+    "title": "Your Cart",
+    "empty": "Your cart is empty",
+    "empty_subtitle": "Add some delicious dishes to get started",
+    "browse_menu": "Browse Menu",
+    "subtotal": "Subtotal",
+    "delivery_fee": "Delivery Fee",
+    "tax": "Tax (5%)",
+    "total": "Total",
+    "free_delivery": "Free",
+    "coupon_placeholder": "Coupon code",
+    "apply_coupon": "Apply",
+    "checkout": "Proceed to Checkout",
+    "continue_shopping": "Continue Shopping"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "home": "होम",
+    "menu": "मेनू",
+    "about": "हमारे बारे में",
+    "reservations": "आरक्षण",
+    "gallery": "गैलरी",
+    "blog": "ब्लॉग",
+    "contact": "संपर्क",
+    "cart": "कार्ट",
+    "login": "लॉगिन",
+    "register": "रजिस्टर",
+    "account": "मेरा खाता",
+    "logout": "लॉगआउट"
+  },
+  "hero": {
+    "tagline": "स्थापित 2010 · पेरिस",
+    "title": "जहाँ व्यंजन कला से मिलती है",
+    "subtitle": "एक असाधारण वातावरण में फ्रेंच-भारतीय फ्यूजन व्यंजन का शिखर अनुभव करें",
+    "cta_reserve": "टेबल बुक करें",
+    "cta_menu": "हमारा मेनू देखें"
+  },
+  "menu": {
+    "title": "हमारा मेनू",
+    "search_placeholder": "व्यंजन खोजें...",
+    "categories": {
+      "all": "सभी",
+      "starters": "स्टार्टर्स",
+      "main_course": "मुख्य कोर्स",
+      "desserts": "मिठाई",
+      "drinks": "पेय",
+      "specials": "विशेष ऑफर"
+    },
+    "filters": {
+      "vegetarian": "शाकाहारी",
+      "vegan": "वीगन",
+      "gluten_free": "ग्लूटेन फ्री",
+      "sort": "क्रमबद्ध करें",
+      "price_asc": "कीमत: कम से अधिक",
+      "price_desc": "कीमत: अधिक से कम",
+      "rating": "सर्वोच्च रेटिंग",
+      "popular": "सबसे लोकप्रिय"
+    },
+    "add_to_cart": "कार्ट में जोड़ें",
+    "view_details": "विवरण देखें",
+    "chef_special": "शेफ की पसंद",
+    "veg": "शाकाहारी",
+    "non_veg": "मांसाहारी"
+  },
+  "reservation": {
+    "title": "अपनी टेबल बुक करें",
+    "subtitle": "एक अविस्मरणीय भोजन अनुभव के लिए लुमिएरे में टेबल बुक करें",
+    "select_date": "तारीख चुनें",
+    "select_time": "समय चुनें",
+    "guests": "मेहमानों की संख्या",
+    "occasion": "अवसर",
+    "special_requests": "विशेष अनुरोध",
+    "name": "पूरा नाम",
+    "email": "ईमेल पता",
+    "phone": "फोन नंबर",
+    "confirm": "आरक्षण की पुष्टि करें",
+    "success": "आरक्षण की पुष्टि!",
+    "confirmation_code": "आपका पुष्टि कोड"
+  },
+  "footer": {
+    "tagline": "शहर के केंद्र में एक असाधारण भोजन अनुभव",
+    "links": "त्वरित लिंक",
+    "hours": "खुलने का समय",
+    "newsletter": "न्यूज़लेटर",
+    "newsletter_placeholder": "आपका ईमेल",
+    "subscribe": "सदस्यता लें",
+    "copyright": "© {year} लुमिएरे रेस्तरां। सर्वाधिकार सुरक्षित।",
+    "privacy": "गोपनीयता नीति",
+    "terms": "सेवा की शर्तें"
+  },
+  "cart": {
+    "title": "आपकी कार्ट",
+    "empty": "आपकी कार्ट खाली है",
+    "empty_subtitle": "शुरू करने के लिए कुछ स्वादिष्ट व्यंजन जोड़ें",
+    "browse_menu": "मेनू देखें",
+    "subtotal": "उपकुल",
+    "delivery_fee": "डिलीवरी शुल्क",
+    "tax": "कर (5%)",
+    "total": "कुल",
+    "free_delivery": "मुफ्त",
+    "coupon_placeholder": "कूपन कोड",
+    "apply_coupon": "लागू करें",
+    "checkout": "चेकआउट करें",
+    "continue_shopping": "खरीदारी जारी रखें"
+  }
+}
