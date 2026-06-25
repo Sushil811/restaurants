@@ -91,7 +91,6 @@ const nextConfig: NextConfig = {
   },
 
   typedRoutes: true,
-  outputFileTracingRoot: require("path").join(__dirname, "../../"),
   experimental: {
     optimizePackageImports: ["lucide-react", "@radix-ui/react-icons", "framer-motion"],
   },
