@@ -87,7 +87,7 @@ const LoyaltyPointsSchema = new Schema<ILoyaltyPoints>(
 );
 
 // Auto-update tier based on total earned points
-LoyaltyPointsSchema.pre('save', function (this: ILoyaltyPoints, next: any) {
+LoyaltyPointsSchema.pre('save', function (this: ILoyaltyPoints) {
   const total = this.totalEarned;
   if (total >= 10000) {
     this.tier = 'platinum';
@@ -98,7 +98,6 @@ LoyaltyPointsSchema.pre('save', function (this: ILoyaltyPoints, next: any) {
   } else {
     this.tier = 'bronze';
   }
-  next();
 });
 
 const LoyaltyPoints: Model<ILoyaltyPoints> = mongoose.model<ILoyaltyPoints>(
