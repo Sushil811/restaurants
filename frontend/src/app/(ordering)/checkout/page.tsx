@@ -264,9 +264,8 @@ function CheckoutFormContent() {
         </div>
 
         <form onSubmit={handleSubmit(handlePlaceOrder)} className="space-y-6">
-          <AnimatePresence mode="wait">
             {/* STEP 1: Delivery Details */}
-            {step === 1 && (
+            <div className={step === 1 ? 'block' : 'hidden'}>
               <motion.div
                 key="step1"
                 initial={{ opacity: 0, x: -10 }}
@@ -372,10 +371,10 @@ function CheckoutFormContent() {
                   </button>
                 </div>
               </motion.div>
-            )}
+            </div>
 
             {/* STEP 2: Payment Details */}
-            {step === 2 && (
+            <div className={step === 2 ? 'block' : 'hidden'}>
               <motion.div
                 key="step2"
                 initial={{ opacity: 0, x: -10 }}
@@ -475,10 +474,10 @@ function CheckoutFormContent() {
                   </button>
                 </div>
               </motion.div>
-            )}
+            </div>
 
             {/* STEP 3: Confirm Order */}
-            {step === 3 && (
+            <div className={step === 3 ? 'block' : 'hidden'}>
               <motion.div
                 key="step3"
                 initial={{ opacity: 0, x: -10 }}
@@ -543,8 +542,7 @@ function CheckoutFormContent() {
                   </button>
                 </div>
               </motion.div>
-            )}
-          </AnimatePresence>
+            </div>
         </form>
       </div>
 
