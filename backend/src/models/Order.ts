@@ -168,17 +168,16 @@ const OrderSchema = new Schema<IOrder>(
 );
 
 // Auto-generate order number: LUM-000001
-OrderSchema.pre('save', async function (this: IOrder, next: any) {
+OrderSchema.pre('save', async function (this: IOrder) {
   if (this.isNew && !this.orderNumber) {
     try {
       const count = await (this.constructor as Model<IOrder>).countDocuments();
       const padded = String(count + 1).padStart(6, '0');
       this.orderNumber = `LUM-${padded}`;
     } catch (err: any) {
-      return next(err);
+      throw err;
     }
   }
-  next();
 });
 
 OrderSchema.index({ user: 1, createdAt: -1 });

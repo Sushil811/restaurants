@@ -102,7 +102,7 @@ const BlogSchema = new Schema<IBlog>(
 );
 
 // Auto-generate slug from title
-BlogSchema.pre('save', function (this: IBlog, next: any) {
+BlogSchema.pre('save', function (this: IBlog) {
   if (this.isModified('title') && !this.slug) {
     this.slug = this.title
       .toLowerCase()
@@ -120,8 +120,6 @@ BlogSchema.pre('save', function (this: IBlog, next: any) {
   if (this.isModified('isPublished') && this.isPublished && !this.publishedAt) {
     this.publishedAt = new Date();
   }
-
-  next();
 });
 
 BlogSchema.index({ isPublished: 1, publishedAt: -1 });

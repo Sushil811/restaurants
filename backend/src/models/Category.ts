@@ -53,14 +53,13 @@ const CategorySchema = new Schema<ICategory>(
 );
 
 // Auto-generate slug from name if not provided
-CategorySchema.pre('save', function (this: ICategory, next: any) {
+CategorySchema.pre('save', function (this: ICategory) {
   if (this.isModified('name') && !this.slug) {
     this.slug = this.name
       .toLowerCase()
       .replace(/[^a-z0-9]+/g, '-')
       .replace(/(^-|-$)/g, '');
   }
-  next();
 });
 
 CategorySchema.index({ isActive: 1, sortOrder: 1 });

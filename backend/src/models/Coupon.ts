@@ -82,11 +82,10 @@ const CouponSchema = new Schema<ICoupon>(
 );
 
 // Validate: percentage discount cannot exceed 100
-CouponSchema.pre('save', function (this: ICoupon, next: any) {
+CouponSchema.pre('save', function (this: ICoupon) {
   if (this.discountType === 'percentage' && this.discountValue > 100) {
-    return next(new Error('Percentage discount cannot exceed 100%'));
+    throw new Error('Percentage discount cannot exceed 100%');
   }
-  next();
 });
 
 CouponSchema.index({ isActive: 1, expiresAt: 1 });
