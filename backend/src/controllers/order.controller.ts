@@ -49,18 +49,19 @@ export const placeOrder = async (
     let subtotal = 0;
 
     for (const rawItem of rawItems) {
-      const { menuItemId, quantity = 1, customizations = [] } = rawItem;
+      const { menuItemId, menuItem: incomingMenuItem, quantity = 1, customizations = [] } = rawItem;
+      const idToUse = menuItemId || incomingMenuItem;
 
-      if (!mongoose.Types.ObjectId.isValid(menuItemId)) {
+      if (!mongoose.Types.ObjectId.isValid(idToUse)) {
         await session.abortTransaction();
-        res.status(400).json({ success: false, message: `Invalid menu item ID: ${menuItemId}` });
+        res.status(400).json({ success: false, message: `Invalid menu item ID: ${idToUse}` });
         return;
       }
 
-      const menuItem = await MenuItem.findById(menuItemId).lean();
+      const menuItem = await MenuItem.findById(idToUse).lean();
       if (!menuItem) {
         await session.abortTransaction();
-        res.status(404).json({ success: false, message: `Menu item not found: ${menuItemId}` });
+        res.status(404).json({ success: false, message: `Menu item not found: ${idToUse}` });
         return;
       }
 
